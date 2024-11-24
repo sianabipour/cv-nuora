@@ -42,6 +42,9 @@ To use the ResNet152-based search, download a suitable ResNet152 model from the 
    cd cv-nuora
 2. The `dataset/` folder contains images already in the database. Add or replace these images to customize the database. The `new.webp` file serves as the input image, and the main scripts will try to match this image with the dataset to identify the most similar ones.
 
+   **Example Input Image:**
+   ![Input Image](new.webp)
+
 3. Execute one of the main scripts to perform image search:
    - **SIFT-based search**:
      ```bash
